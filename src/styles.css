@@ -10,4 +10,9 @@
 
 a {
   text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #dec129;
 }
