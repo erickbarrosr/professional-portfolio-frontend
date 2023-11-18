@@ -42,3 +42,22 @@ nav {
   background-color: #4f4f4f;
   border-radius: 50%;
 }
+
+input[type="submit"] {
+  background-color: #87cefa;
+  border: none;
+  border-radius: 50%;
+  padding: 0.6em 1em;
+  font-weight: bold;
+  color: #09090b;
+  cursor: pointer;
+  font-size: 1.1em;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  color: #87cefa;
+  border-color: #87cefa;
+  background-color: transparent;
+}
