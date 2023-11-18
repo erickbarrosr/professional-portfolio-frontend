@@ -4,7 +4,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 236px;
 }
 
 footer h3 {
@@ -18,4 +18,26 @@ footer p {
 
 footer span {
   color: #87cefa;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 2em;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
+}
+
+.margin-right {
+  margin-right: 2em;
+}
+
+.margin-left {
+  margin-left: 2em;
 }
