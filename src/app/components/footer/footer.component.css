@@ -4,15 +4,11 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 236px;
+  height: 186px;
 }
 
 footer h3 {
   font-size: x-large;
-  margin-bottom: 1.2em;
-}
-
-footer p {
   margin-bottom: 1.2em;
 }
 
