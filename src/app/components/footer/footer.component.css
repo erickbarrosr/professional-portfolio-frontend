@@ -4,7 +4,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 186px;
+  height: 178px;
 }
 
 footer h3 {
@@ -26,7 +26,7 @@ footer ul {
 }
 
 footer img {
-  width: 40px;
+  width: 32px;
   height: auto;
 }
 
