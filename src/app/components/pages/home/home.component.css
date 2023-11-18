@@ -1,47 +1,31 @@
-nav {
+.home-container {
   display: flex;
-  justify-content: space-between;
-  padding: 1.5em;
-  border-bottom: 1px solid #87cefa;
-}
-
-.brand,
-.links {
-  display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
-.brand img {
-  width: 40px;
-  margin-right: 0.6em;
+.profile {
+  margin: 5.8em 0 0 4em;
 }
 
-.brand h2 {
-  transition: 0.4s;
+.greetings {
+  margin-right: 4em;
 }
 
-.brand:hover > h2 {
-  color: #87cefa;
+h1 {
+  margin: 0.5em 0;
+  font-size: 3em;
 }
 
-.links li {
-  margin-left: 1em;
-  list-style: none;
+p {
+  margin-bottom: 1.2em;
+  font-size: 1.2em;
 }
 
-.links a {
-  padding: 0.1em 0.3em;
+a {
+  text-decoration: none;
 }
-
-/* #add a {
-  color: #87cefa;
-}
-
-#add a:hover {
-  background-color: #4f4f4f;
-  border-radius: 50%;
-} */
 
 input[type="submit"] {
   align-items: center;
@@ -77,6 +61,7 @@ input[type="submit"] {
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  margin-bottom: 2em;
 }
 
 input[type="submit"]:focus {
@@ -93,4 +78,11 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+img {
+  width: 328px;
+  height: auto;
+  border: 0.2em solid #87cefa;
+  border-radius: 1em;
 }
