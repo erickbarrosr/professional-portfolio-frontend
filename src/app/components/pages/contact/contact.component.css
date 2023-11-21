@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  padding: 1em;
+  font-size: xx-large;
+}
+
+.contact span {
+  color: #87cefa;
+}
