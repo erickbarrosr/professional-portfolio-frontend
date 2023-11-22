@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { TechnologiesComponent } from './components/pages/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     HomeComponent,
     ContactComponent,
     ContactFormComponent,
+    TechnologiesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
