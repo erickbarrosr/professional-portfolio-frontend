@@ -1,0 +1,73 @@
+.technologies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.technologies-container h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.technologies-container span {
+  color: #84cefa;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: center;
+  column-gap: 48px;
+  margin-top: 64px;
+}
+
+.card-grid {
+  width: 364px;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  border-color: #84cefa;
+}
+
+.description-technologies {
+  text-align: center;
+  padding: 24px;
+}
+
+#paragraph {
+  text-align: left;
+}
+
+h3 {
+  margin: 0px;
+  padding-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p.technologies {
+  font-size: 16px;
+}
+
+ul {
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 40px;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
