@@ -1,0 +1,66 @@
+.section-portfolio {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1em;
+}
+
+.section-portfolio h2 {
+  font-size: 3em;
+}
+
+.section-portfolio span {
+  color: #84cefa;
+}
+
+.grid-container-portfolio {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: flex-start;
+  justify-content: center;
+  column-gap: 48px;
+}
+
+.card-grid-portfolio {
+  width: 384px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-style: solid;
+  border-radius: 24px;
+  border-width: 1px;
+  border-color: #84cefa;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.card-grid-portfolio-img {
+  width: 220px;
+  height: 154px;
+  padding: 24px;
+}
+
+.icons-grid-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.icon-github {
+  width: 20px;
+  height: auto;
+  margin-left: 1em;
+}
+
+.icon-link {
+  width: 20px;
+  height: auto;
+}
