@@ -5,7 +5,7 @@ In addition, it stands as an example of a professional portfolio for developers.
 
 # Preview
 
-<img src="https://github.com/erickbarrosr/professional-portfolio-frontend/frontend/src/assets/preview.png" height="500"/>
+<img src="src/assets/preview.png" height="500"/>
 
 ## Live link:
 
