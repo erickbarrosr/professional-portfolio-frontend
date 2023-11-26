@@ -1,28 +1,39 @@
-# Frontend
+# Introduction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+This is a project to showcase my Full-Stack development skills.
+In addition, it stands as an example of a professional portfolio for developers.
 
-## Development server
+# Preview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="https://github.com/erickbarrosr/professional-portfolio-frontend/blob/main/source/imagens/preview.png" height="500"/>
 
-## Code scaffolding
+## Live link:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://erickbarrosr.github.io/portfolio/
 
-## Build
+## Main concepts applied
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Flex-box
+- DOM manipulation
+- Events
+- CSS Media Query
 
-## Running unit tests
+## Instuctions to run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1.  Clone the project:
 
-## Running end-to-end tests
+```
+git clone https://git@github.com:erickbarrosr/professional-portfolio-frontend.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. After clone open the folder:
 
-## Further help
+```
+portfolio
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# professional-portfolio-frontend
+3. Open the index file with the browser:
+
+```
+index.html
+```
