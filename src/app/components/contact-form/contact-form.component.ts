@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { MessagesService } from 'src/app/services/messages.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-form',
@@ -10,6 +12,11 @@ export class ContactFormComponent implements OnInit {
   @Input() sendButton!: string;
 
   contactForm!: FormGroup;
+
+  constructor(
+    private messagesService: MessagesService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     this.contactForm = new FormGroup({
@@ -41,6 +48,10 @@ export class ContactFormComponent implements OnInit {
     if (this.contactForm.invalid) {
       return;
     }
-    console.log('Enviou o formulário...');
+    console.log(this.contactForm);
+
+    this.messagesService.add('Mensagem enviada com sucesso.');
+
+    this.router.navigate(['/']);
   }
 }
